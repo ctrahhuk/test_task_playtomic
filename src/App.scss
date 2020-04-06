@@ -1,0 +1,27 @@
+body {
+  font-family: Helvetica, "Lato", sans-serif !important;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body, div#root, .app {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
